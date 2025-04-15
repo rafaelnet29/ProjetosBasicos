@@ -1,6 +1,5 @@
 package com.mycompany.projetobasico.mediadesviopadrao;
 
-
 import java.util.Scanner;
 
 public class MediaDesvipadrao {
