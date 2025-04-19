@@ -26,11 +26,10 @@ public class ContandoLetras {
         for (int i = 0; i < palavra.length(); i++) {
             char c = palavra.charAt(i);
             if (c == letraRepetida) {
-
                 contador++;
             }
         }
 
-        System.out.println("A letra " + letraRepetida +  " aparece " + contador + " vezes ");
+        System.out.println("A letra " + letraRepetida + " aparece " + contador + " vezes ");
     }
 }
