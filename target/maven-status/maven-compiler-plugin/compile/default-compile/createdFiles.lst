@@ -3,6 +3,7 @@ com\mycompany\projetobasico\fibonacci\Fibonacci.class
 com\mycompany\projetobasico\contandoletras\ContandoLetras.class
 com\mycompany\projetobasico\numerosprimos\NumeroPrimo.class
 com\mycompany\projetobasico\palindromo\Palindromo.class
+com\mycompany\projetobasico\bubblesort\BubbleSort.class
 com\mycompany\projetobasico\invertendostring\InvertendoString.class
 com\mycompany\projetobasico\substituirremover\SubstiuirRemover.class
 com\mycompany\projetobasico\tabuada\Tabuada.class
