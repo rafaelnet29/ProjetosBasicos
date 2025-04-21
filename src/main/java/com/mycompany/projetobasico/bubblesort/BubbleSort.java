@@ -26,10 +26,10 @@ public class BubbleSort {
                      temp = numeros.get(j);
                      numeros.set(j, numeros.get(j+1));
                      numeros.set(j+1, temp);
-                    }//2 if
-                }//2 for
-            }//1 if
-        }//1 for
+                    }//2º if
+                }//2º for
+            }//1º if
+        }//1º for
         System.out.println("Lista ordenada: " + numeros);
-    }
-}
+    }//fim main
+}//fim da class
