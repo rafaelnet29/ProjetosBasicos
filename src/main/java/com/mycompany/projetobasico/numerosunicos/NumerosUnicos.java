@@ -8,8 +8,8 @@ public class NumerosUnicos {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        List<Integer> listaNumeros = new ArrayList<Integer>();
-        List<Integer> listaUnica = new ArrayList<Integer>();
+        List<Integer> listaNumeros = new ArrayList<>();
+        List<Integer> listaUnica = new ArrayList<>();
         int contador = 0;
        
         System.out.println("Informe uma lista de numeros: use 0 - 'ZERO' PRA FINALIZAR");
@@ -18,7 +18,7 @@ public class NumerosUnicos {
             listaNumeros.add(contador);
         } while (contador != 0);
 
-        listaNumeros.remove(listaNumeros.size() - 1);
+        listaNumeros.remove(listaNumeros.size() - 1);//remove o numero 0
 
         for (int i = 0; i < listaNumeros.size(); i++) {
             if (listaNumeros.indexOf(listaNumeros.get(i)) == listaNumeros.lastIndexOf(listaNumeros.get(i))) {
