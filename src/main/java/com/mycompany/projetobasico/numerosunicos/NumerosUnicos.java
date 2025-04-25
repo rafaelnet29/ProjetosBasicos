@@ -11,7 +11,7 @@ public class NumerosUnicos {
         List<Integer> listaNumeros = new ArrayList<Integer>();
         List<Integer> listaUnica = new ArrayList<Integer>();
         int contador = 0;
-        int numerosTemporarios = 0;
+       
         System.out.println("Informe uma lista de numeros: use 0 - 'ZERO' PRA FINALIZAR");
         do {
             contador = scan.nextInt();
