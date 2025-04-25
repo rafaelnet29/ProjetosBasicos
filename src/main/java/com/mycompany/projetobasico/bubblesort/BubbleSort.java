@@ -22,7 +22,7 @@ public class BubbleSort {
         for (int i = 0; i < numeros.size(); i++) {
             if (numeros.get(i) != 0) {
                 for (int j = 0; j < numeros.size()- i - 1; j++) {
-                    if(numeros.get(j) > numeros.get(j+1)){
+                    if(numeros.get(j) > numeros.get(j+1)){//verifica se o numero atua é MAIOque o proximo
                      temp = numeros.get(j);
                      numeros.set(j, numeros.get(j+1));
                      numeros.set(j+1, temp);
