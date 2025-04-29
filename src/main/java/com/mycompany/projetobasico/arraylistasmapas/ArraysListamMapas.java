@@ -29,7 +29,7 @@ public class ArraysListamMapas {
                 numeros[i] = numeroArray;
                 i++;
             }
-            
+
         }
 
         //Converte o array em List
@@ -38,21 +38,33 @@ public class ArraysListamMapas {
                 lista.add(num);
             }
         }
-        //verifica se a lista não esta vazia e remove
-        //o "0" 
+        /**
+         * verifica se a lista não esta vazia e remove
+         */
         if (!lista.isEmpty()) {
             if (lista.get(0) == 0) {
                 lista.remove(0);
             }
+            //remove o digito 0 - "zero"
             if (lista.get(lista.size() - 1) == 0) {
                 lista.remove(lista.size() - 1);
             }
         }
-
-        //Faz a contagem da frequencia 
+        /**
+         * Faz a contagem da frequencia mapa.getOrDefault(num, 0) + 1 funciona
+         * assim: - Se num já existe no mapa, pega o valor atual e soma
+         * 1(incrementa a contagem). - Se num não existe no mapa, retorna 0 e
+         * soma 1 (primeira aparição).
+         */
         for (int num : lista) {
             mapa.put(num, mapa.getOrDefault(num, 0) + 1);
         }
+        /**
+         * - Aqui, o código percorre novamente a lista para identificar números
+         * únicos (ou seja, aqueles cuja frequência no mapa é 1). -
+         * mapa.get(num) == 1 verifica se o número aparece somente uma vez. - Se
+         * for verdadeiro, adiciona esse número à variável temp.
+         */
         for (int num : lista) {
             if (mapa.get(num) == 1) {
                 temp += num;
