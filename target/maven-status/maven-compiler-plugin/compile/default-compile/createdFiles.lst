@@ -6,6 +6,7 @@ com\mycompany\projetobasico\bubblesort\BubbleSort.class
 com\mycompany\projetobasico\frequenciadenumeros\FrequenciaNumeros.class
 com\mycompany\projetobasico\invertendostring\InvertendoString.class
 com\mycompany\projetobasico\substituirremover\SubstiuirRemover.class
+com\mycompany\projetobasico\arraylistasmapas\ArraysListamMapas.class
 com\mycompany\projetobasico\númerosrepetidos\NumerosRepetidos.class
 com\mycompany\projetobasico\numerosprimos\NumeroPrimo.class
 com\mycompany\projetobasico\palindromo\Palindromo.class
