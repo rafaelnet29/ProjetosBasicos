@@ -17,6 +17,7 @@ public class ContandoLetras {
         String palavra = "";
         char letraRepetida;
         int contador = 0;
+        
         System.out.println("Informe uma frase:");
         palavra = scan.nextLine();
 

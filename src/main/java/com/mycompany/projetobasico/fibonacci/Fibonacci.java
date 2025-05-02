@@ -23,6 +23,7 @@ public class Fibonacci {
 
         Scanner scan = new Scanner(System.in);
         int numeroInicio = 0, numeroInicio2 = 1, numero;
+        
         System.out.print("Quantos números da sequência de Fibonacci você quer ver? ");
         numero = scan.nextInt();
 

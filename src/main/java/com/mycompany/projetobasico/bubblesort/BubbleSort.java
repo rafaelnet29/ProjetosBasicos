@@ -11,6 +11,7 @@ public class BubbleSort {
         List<Integer> numeros = new ArrayList<Integer>();
         int contador = 0;
         int temp = 0;
+        
         System.out.println("Informe uma lista de numeros:");
         do {
             contador = scan.nextInt();

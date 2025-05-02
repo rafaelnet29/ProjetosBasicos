@@ -10,6 +10,7 @@ public class SubstiuirRemover {
         String novaPlavra = "";
         String palavraSubstituida = "";
         String vogaisTodas = "aeiouAEIOU";
+        
         System.out.println("Informe um palavra:");
         palavra = scan.nextLine();
         
