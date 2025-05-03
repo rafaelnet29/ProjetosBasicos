@@ -9,9 +9,13 @@ com\mycompany\projetobasico\substituirremover\SubstiuirRemover.class
 com\mycompany\projetobasico\arraylistasmapas\ArraysListamMapas.class
 com\mycompany\projetobasico\númerosrepetidos\NumerosRepetidos.class
 com\mycompany\projetobasico\numerosprimos\NumeroPrimo.class
+com\mycompany\projetobasico\comparator\Pessoa.class
 com\mycompany\projetobasico\palindromo\Palindromo.class
+com\mycompany\projetobasico\comparator\Principal.class
 com\mycompany\projetobasico\numerosunicos\NumerosUnicos.class
 com\mycompany\projetobasico\tabuada\Tabuada.class
 com\mycompany\projetobasico\mediadesviopadrao\MediaDesvipadrao.class
 com\mycompany\projetobasico\somapares\SomaPares.class
 com\mycompany\projetobasico\maiormenor\MaiorMenor.class
+com\mycompany\projetobasico\sort\OrdenaçãoCollectionSort.class
+com\mycompany\projetobasico\hashset\NumerosUnicos.class
