@@ -9,30 +9,31 @@ import java.util.stream.Collectors;
 public class Stream {
 
     public static void main(String[] args) {
-        List<Integer> listaImpares = new ArrayList<>();
+        List<Integer> listaNumeros = new ArrayList<>();
         Scanner scan = new Scanner(System.in);
         int numeros = 0;
 
         System.out.println("Informe uma lista de numeros:");
         while ((numeros = scan.nextInt()) != 0) {
-            listaImpares.add(numeros);
+            listaNumeros.add(numeros);
         }
-        List<Integer> listaNova = listaImpares.stream()
-                .filter(pares -> pares % 2 != 0)
+        List<Integer> listaImpares = listaNumeros.stream()
+                .filter(impares -> impares % 2 != 0)
                 .collect(Collectors.toList());
 
         //Ordenação com InsertionSort
         int chave;
-        for (int i = 1; i < listaNova.size(); i++) {
-            chave = listaNova.get(i);
+        for (int i = 1; i < listaImpares.size(); i++) {
+            chave = listaImpares.get(i);
 
             int j = i - 1;
-            while (j >= 0 && listaNova.get(j) > chave) {
-                listaNova.set(j + 1, listaNova.get(j));
+            while (j >= 0 && listaImpares.get(j) > chave) {
+                listaImpares.set(j + 1, listaImpares.get(j));
                 j--;
             }
-            listaNova.set(j + 1, chave);
+            listaImpares.set(j + 1, chave);
         }
-        System.out.println("Lista do Impares: " + listaNova);
+        System.out.println(" Imprimido Lista: \n " + " Lista Original: " + listaNumeros 
+                + "\n Lista Nova valores Impares: " + listaImpares);
     }
 }
