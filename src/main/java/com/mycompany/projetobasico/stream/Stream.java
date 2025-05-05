@@ -31,7 +31,7 @@ public class Stream {
         //Ordenação com InsertionSort
         int chave;
         for (int i = 1; i < numerosImpares.size(); i++) {
-            //Set não tem o metodo get com List
+            
             chave = numerosImpares.get(i);
 
             int j = i - 1;
