@@ -20,7 +20,7 @@ public class NumerosUnicos {
             }
         } while (num != -1);
 
-        System.out.println("informe umnumero para procurar:");
+        System.out.println("informe um numero para procurar:");
         int busca = scan.nextInt();
         if (numerosUnicos.contains(busca)) {
             System.out.println("Você encontrou o numero " + busca);
