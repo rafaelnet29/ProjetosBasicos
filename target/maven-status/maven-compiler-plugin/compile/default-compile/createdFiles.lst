@@ -11,6 +11,7 @@ com\mycompany\projetobasico\númerosrepetidos\NumerosRepetidos.class
 com\mycompany\projetobasico\numerosprimos\NumeroPrimo.class
 com\mycompany\projetobasico\comparator\Pessoa.class
 com\mycompany\projetobasico\palindromo\Palindromo.class
+com\mycompany\projetobasico\selectionsort\SelectionSort.class
 com\mycompany\projetobasico\stream\Stream.class
 com\mycompany\projetobasico\comparator\Principal.class
 com\mycompany\projetobasico\numerosunicos\NumerosUnicos.class
