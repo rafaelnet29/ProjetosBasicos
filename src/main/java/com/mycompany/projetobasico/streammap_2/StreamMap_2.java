@@ -29,8 +29,5 @@ public class StreamMap_2 {
         System.out.println("Comprimento das palavras " + comprimentoPalavras);
         System.out.println("Soma dos Comprimentos das palavras " + somarComprimentos);
         System.out.println("Palavras mais longa " + palavraMaisLonga);
-
-        //System.out.println("Lista dobro de cada numero: " + stream);
-        // System.out.println("Lista Somando o valores dobrados: " + somaDrobo);
     }
 }
