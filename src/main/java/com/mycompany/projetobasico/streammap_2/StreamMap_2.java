@@ -11,6 +11,7 @@ public class StreamMap_2 {
         List<String> palavras = new ArrayList<>();
         Scanner scan = new Scanner(System.in);
         String alfabeto;
+        
         //insere palavras na lista ate que 0 digitado
         while (!(alfabeto = scan.next()).equals("0")) {
             palavras.add(alfabeto);
@@ -19,12 +20,12 @@ public class StreamMap_2 {
         List<Integer> comprimentoPalavras = palavras.stream()
                 .map(p -> p.length())
                 .collect(Collectors.toList());
-        
+
         int somarComprimentos = comprimentoPalavras.stream()
-               .reduce(0, (somarTodos, s) -> somarTodos + s);
-        
+                .reduce(0, (somarTodos, s) -> somarTodos + s);
+
         String palavraMaisLonga = palavras.stream()
-                 .reduce("", (a, b) -> a.length() > b.length() ? a: b);
+                .reduce("", (a, b) -> a.length() > b.length() ? a : b);
 
         System.out.println("Comprimento das palavras " + comprimentoPalavras);
         System.out.println("Soma dos Comprimentos das palavras " + somarComprimentos);

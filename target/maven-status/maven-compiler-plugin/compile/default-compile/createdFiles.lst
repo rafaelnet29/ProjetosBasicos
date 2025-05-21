@@ -15,6 +15,7 @@ com\mycompany\projetobasico\contagemvariasletras\ContandoVariasLetras.class
 com\mycompany\projetobasico\produtodedigitos\ProdutoDeDigitos.class
 com\mycompany\projetobasico\contandoletras\ContandoLetras.class
 com\mycompany\projetobasico\frequenciadenumeros\FrequenciaNumeros.class
+com\mycompany\projetobasico\streamfilter\StreamFilter.class
 com\mycompany\projetobasico\streammap_2\StreamMap_2.class
 com\mycompany\projetobasico\numerosprimos\NumeroPrimo.class
 com\mycompany\projetobasico\comparator\Pessoa.class
