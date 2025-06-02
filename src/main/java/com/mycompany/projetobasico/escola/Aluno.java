@@ -1,5 +1,6 @@
 package com.mycompany.projetobasico.escola;
 
+import java.text.MessageFormat;
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -17,7 +18,7 @@ class Aluno {
 
     public Double calculoMedia() {
         int[] notas = new int[4];
-        System.out.println("Informe os numeros que quer para saber a media: ");
+        System.out.println("Informe as notas do aluno: ");
         for (int i = 0; i < notas.length; i++) {
             notas[i] = scan.nextInt();
         }
@@ -30,11 +31,11 @@ class Aluno {
     public void metodoAprovados() {
         double mediaFinal = calculoMedia();
         if (mediaFinal >= 7.0) {
-            System.out.println(" Nome: " + nome + " " + idade + " ano, " +  " está APROVADO: " + mediaFinal);
+            System.out.println(MessageFormat.format("O Aluno {0}, {1} anos está APROVADO: {2} ", nome, idade, mediaFinal));
         } else if (mediaFinal <= 3.0 && mediaFinal <= 6.0) {
-            System.out.println(" Nome: " + nome + " " + idade + " ano, " +  " está em  RECUPERAÇÂO: "  + mediaFinal);
+            System.out.println(MessageFormat.format("O Aluno {0}, {1} anos está em RECUPERAÇÃO: {2} ", nome, idade, mediaFinal));
         } else {
-            System.out.println(" Nome: " + nome + " " + idade + " ano, " +  " está REPROVADO: " + mediaFinal);
+            System.out.println(MessageFormat.format("O Aluno {0}, {1} anos está REPROVADO: {2} ", nome, idade, mediaFinal));
         }
     }
 }

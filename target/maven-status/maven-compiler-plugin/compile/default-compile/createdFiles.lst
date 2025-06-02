@@ -19,7 +19,9 @@ com\mycompany\projetobasico\streamfilter\StreamFilter.class
 com\mycompany\projetobasico\streammap_2\StreamMap_2.class
 com\mycompany\projetobasico\numerosprimos\NumeroPrimo.class
 com\mycompany\projetobasico\comparator\Pessoa.class
+com\mycompany\projetobasico\escola\Aluno.class
 com\mycompany\projetobasico\stream\Stream.class
+com\mycompany\projetobasico\escola\Principal.class
 com\mycompany\projetobasico\numerosunicos\NumerosUnicos.class
 com\mycompany\projetobasico\tabuada\Tabuada.class
 com\mycompany\projetobasico\mediadesviopadrao\MediaDesvipadrao.class
