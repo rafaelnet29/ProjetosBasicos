@@ -43,27 +43,5 @@ public class Stream {
         }
         System.out.println(" Imprimido Lista: \n " + " Lista Original: " + listaNumeros
                 + "\n Lista Nova valores Impares: " + numerosImpares);
-        
-        /***
-         * *
-         * Remove numeros repetidos percorre a lista original, verifica na nova
-         * lista se o numero não exite. se não existir, é adicionado. 
-         *  List<Integer> listaNumerosrepetidos = new ArrayList<>();
-         * for (int num = 0; num < listaNumeros.size(); num++) {
-             if (!listaNumerosrepetidos.contains(listaNumeros.get(num))) {
-                 listaNumerosrepetidos.add(listaNumeros.get(num));
-             }
-            }
-         */
-        
-        /***
-        *percorrendo a lista ao contrario
-        *  List<Integer> listaNumerosrepetidos = new ArrayList<>();
-        * for (int num = listaNumeros.size() - 1; num >= 0; num--) { // Agora inclui o índice 0
-            if (!listaNumerosrepetidos.contains(listaNumeros.get(num))) {
-                listaNumerosrepetidos.add(listaNumeros.get(num)); // Adiciona valores únicos
-            }
-        }
-        */
     }
 }
