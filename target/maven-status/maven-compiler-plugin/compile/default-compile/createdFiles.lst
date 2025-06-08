@@ -5,6 +5,7 @@ com\mycompany\projetobasico\substituirremover\SubstiuirRemover.class
 com\mycompany\projetobasico\arraylistasmapas\ArraysListamMapas.class
 com\mycompany\projetobasico\númerosrepetidos\NumerosRepetidos.class
 com\mycompany\projetobasico\streammap\StreamMap.class
+com\mycompany\projetobasico\escola\ClasseAux.class
 com\mycompany\projetobasico\palindromo\Palindromo.class
 com\mycompany\projetobasico\selectionsort\SelectionSort.class
 com\mycompany\projetobasico\comparator\Principal.class
