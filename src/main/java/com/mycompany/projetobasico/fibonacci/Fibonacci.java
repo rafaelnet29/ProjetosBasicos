@@ -17,8 +17,6 @@ public class Fibonacci {
          *
          * - Receba o limite: Peça ao usuário quantos números ele quer ver na
          * sequência.
-         *
-         * Aqui vai a estrutura inicial pra você pensar:
          */
 
         Scanner scan = new Scanner(System.in);
