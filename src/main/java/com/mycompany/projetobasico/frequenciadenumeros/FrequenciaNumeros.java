@@ -22,7 +22,7 @@ public class FrequenciaNumeros {
         } while (contador != 0);
 
         listaNumeros.remove(listaNumeros.size() - 1);//remove o zero
-        
+
         /**
          * Faz a contagem da frequencia mapa.getOrDefault(num, 0) + 1 funciona
          * assim: - Se num já existe no mapa, pega o valor atual e soma
@@ -32,17 +32,17 @@ public class FrequenciaNumeros {
         for (int num : listaNumeros) {
             mapaNumeros.put(num, mapaNumeros.getOrDefault(num, 0) + 1);
         }
-        
+
         /**
          * - Aqui, o código percorre novamente a lista para identificar números
          * únicos (ou seja, aqueles cuja frequência no mapa é 1). -
          * mapa.get(num) == 1 verifica se o número aparece somente uma vez. - Se
          * for verdadeiro, adiciona esse número à variável temp.
          */
-        for(int num : listaNumeros){
+        for (int num : listaNumeros) {
             if (mapaNumeros.get(num) == 1) {
-                    temp += num;
-                }
+                temp += num;
+            }
         }
 
         for (Map.Entry<Integer, Integer> entry : mapaNumeros.entrySet()) {

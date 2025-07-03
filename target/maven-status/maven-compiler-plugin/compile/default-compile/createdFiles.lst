@@ -6,6 +6,8 @@ com\mycompany\projetobasico\arraylistasmapas\ArraysListamMapas.class
 com\mycompany\projetobasico\númerosrepetidos\NumerosRepetidos.class
 com\mycompany\projetobasico\streammap\StreamMap.class
 com\mycompany\projetobasico\escola\ClasseAux.class
+com\mycompany\projetobasico\insertionsort\InsertionSort.class
+com\mycompany\projetobasico\selectionsort2\SelectionSort.class
 com\mycompany\projetobasico\palindromo\Palindromo.class
 com\mycompany\projetobasico\selectionsort\SelectionSort.class
 com\mycompany\projetobasico\comparator\Principal.class
@@ -27,3 +29,4 @@ com\mycompany\projetobasico\numerosunicos\NumerosUnicos.class
 com\mycompany\projetobasico\tabuada\Tabuada.class
 com\mycompany\projetobasico\mediadesviopadrao\MediaDesvipadrao.class
 com\mycompany\projetobasico\somapares\SomaPares.class
+com\mycompany\projetobasico\bubblesort2\BubbleSort.class
